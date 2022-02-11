@@ -1,5 +1,5 @@
 const d = document
-const calcular = d.getElementById("btn")
+const boton = d.getElementById("btn")
 
 const calculadora = () => {
     const nombre = d.getElementById("nombre").value;
@@ -15,4 +15,4 @@ const calculadora = () => {
     : resultado.textContent = `${nombre}, tenés peso ideal.`;
 }
 
-calcular.addEventListener("click", calculadora);
+boton.addEventListener("click", calculadora);
