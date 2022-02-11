@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+.content {
+    border: 2px solid black;
+    border-radius: .3rem;
+    padding: 2rem;
+    margin-bottom: 5rem;
+}
+
+.input-box {
+    margin: 1rem;
+    display: flex;
+}
+
+.input-box label {
+    font-weight: 600;
+}
+
+.input-box input {
+    border: 2px solid black;
+    margin-left: .5rem;
+    border-radius: .2rem;
+    padding: .3rem;
+    font-size: 1rem;
+}
+#estatura {
+    max-width: 6rem;
+}
+
+#edad {
+    max-width: 3rem;
+}
+
+#peso {
+    max-width: 3rem;
+}
+
+#btn {
+    border: 2px solid black;
+    padding: .3rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+.container {
+    border: 2px solid black;
+    border-radius: .3rem;
+    padding: 2rem;
+    min-width: 30rem;
+    min-height: 10rem;
+}
+
+#resultado {
+    font-size: 1.5rem;
+    margin-top: .5rem;
+}
