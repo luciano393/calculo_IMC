@@ -1,6 +1,6 @@
 const calcular = document.getElementById("btn")
 
-function calculadora() {
+const calculadora = () => {
     const nombre = document.getElementById("nombre").value;
     const estatura = document.getElementById("estatura").value;
     const peso = document.getElementById("peso").value;
