@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -22,7 +26,7 @@ h1 {
 }
 
 .content {
-    border: 2px solid black;
+    border: 2px solid #333333;
     border-radius: .3rem;
     padding: 2rem;
     margin-bottom: 5rem;
@@ -38,7 +42,7 @@ h1 {
 }
 
 .input-box input {
-    border: 2px solid black;
+    border: 2px solid #333333;
     margin-left: .5rem;
     border-radius: .2rem;
     padding: .3rem;
@@ -57,15 +61,16 @@ h1 {
 }
 
 #btn {
-    border: 2px solid black;
+    border: 2px solid #333333;
     padding: .3rem;
     font-weight: 600;
     cursor: pointer;
     margin-left: 1rem;
+    background-color: #999999;
 }
 
 .container {
-    border: 2px solid black;
+    border: 2px solid #333333;
     border-radius: .3rem;
     padding: 2rem;
     min-width: 30rem;
@@ -74,5 +79,32 @@ h1 {
 
 #resultado {
     font-size: 1.5rem;
-    margin-top: .5rem;
+}
+
+@media (max-width: 600px) {
+    .container {
+        min-width: auto;
+    }
+    .content {
+        padding: 1rem auto;
+        margin: auto;
+    }
+}
+
+@media (max-width: 400px) {
+    .container {
+        text-align: center;
+        min-width: auto;
+        min-height: auto;
+        padding: auto;
+        margin: 1rem;
+    }
+    .content {
+        border: none;
+        text-align: center;
+    }
+
+    .input-box {
+        margin: 1rem auto;
+    }
 }
