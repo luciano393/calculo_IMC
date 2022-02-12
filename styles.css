@@ -26,7 +26,7 @@ h1 {
 }
 
 .content {
-    border: 2px solid #333333;
+    box-shadow: 0 0 5px rgba(0,0,0, .9);
     border-radius: .3rem;
     padding: 2rem;
     margin-bottom: 5rem;
@@ -42,7 +42,7 @@ h1 {
 }
 
 .input-box input {
-    border: 2px solid #333333;
+    border: 1px solid #333333;
     margin-left: .5rem;
     border-radius: .2rem;
     padding: .3rem;
@@ -61,16 +61,17 @@ h1 {
 }
 
 #btn {
-    border: 2px solid #333333;
+    border-radius: .2rem;
+    box-shadow: 0 0 5px rgba(0,0,0, .9);
     padding: .3rem;
     font-weight: 600;
     cursor: pointer;
     margin-left: 1rem;
-    background-color: #999999;
+    background-color: rgba(0,0,0, .1);
 }
 
 .container {
-    border: 2px solid #333333;
+    box-shadow: 0 0 5px rgba(0,0,0, .9);
     border-radius: .3rem;
     padding: 2rem;
     min-width: 30rem;
